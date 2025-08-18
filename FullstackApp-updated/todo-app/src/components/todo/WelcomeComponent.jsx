@@ -30,6 +30,9 @@ function WelcomeComponent() {
 			<div className="text-info">
 				Manage your todos - <Link to="/todos">Go here</Link>
 			</div>
+			<div className="text-info">
+				Create your report - <Link to="/activity-logs">Go here</Link>
+			</div>
 			<button className="btn btn-success m-5" onClick={CallHelloWorldApi}>
 				Call Hello World
 			</button>

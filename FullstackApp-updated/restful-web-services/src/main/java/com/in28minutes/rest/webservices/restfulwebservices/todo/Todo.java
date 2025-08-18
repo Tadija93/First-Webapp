@@ -46,8 +46,8 @@ public class Todo {
 
     // Getters and Setters for existing fields ...
 
-    public Long getId() {
-        return id;
+    public Integer getId() {
+        return Math.toIntExact(id);
     }
 
     public void setId(Long id) {

@@ -7,6 +7,8 @@ import ErrorComponent from './ErrorComponent'
 import ListTodosComponent from './ListTodosComponent'
 import WelcomeComponent from './WelcomeComponent'
 import TodoComponent from './TodoComponent';
+import ActivityLogList from './ActivityLogList';
+import ActivityReportsComponent from './ActivityReportsComponent';
 import AuthProvider, { useAuth } from './security/AuthContext'
 
 
@@ -41,6 +43,16 @@ export default function TodoApp() {
                                 <AuthenticatedRoute>
                                     <ListTodosComponent /> 
                                 </AuthenticatedRoute>
+                        } />
+                        <Route path='/activity-logs' element={
+                                <AuthenticatedRoute>
+                                    <ActivityLogList />
+                                </AuthenticatedRoute>
+                        } />
+                        <Route path='/activity-reports' element={
+                            <AuthenticatedRoute>
+                                <ActivityReportsComponent />
+                            </AuthenticatedRoute>
                         } />
                         <Route path='/todos/:id' element={
                                 <AuthenticatedRoute>

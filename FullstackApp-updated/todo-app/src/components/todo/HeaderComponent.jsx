@@ -28,8 +28,13 @@ function HeaderComponent() {
                                 </li>
                                 <li className="nav-item">
                                     {isAuthenticated 
-                                            &&  <Link className="nav-link" to="/todos">Todos</Link>}                         
+                                             &&  <Link className="nav-link" to="/todos">Todos</Link>}                         
                                 </li>
+                                {authContext.role === 'admin' && (
+                                    <li className="nav-item">
+                                        <Link className="nav-link" to="/activity-reports">Activity Reports</Link>
+                                    </li>
+                                )}
                             </ul>
                         </div>
                         <ul className="navbar-nav">
