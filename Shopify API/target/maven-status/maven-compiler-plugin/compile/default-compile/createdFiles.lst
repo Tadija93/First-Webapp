@@ -1,0 +1,12 @@
+org\blacklemon\service\ShopifyService$ShopifyApiException.class
+org\blacklemon\ShopifyIntegrationApplication.class
+org\blacklemon\service\ShopifyService.class
+org\blacklemon\config\ShopifyConfig.class
+org\blacklemon\model\Image.class
+org\blacklemon\service\ShopifyService$ProductResponse.class
+org\blacklemon\model\Variant.class
+org\blacklemon\service\ShopifyService$ProductListResponse.class
+org\blacklemon\service\ShopifyService$ProductNotFoundException.class
+org\blacklemon\model\Option.class
+org\blacklemon\controller\ShopifyController.class
+org\blacklemon\model\Product.class

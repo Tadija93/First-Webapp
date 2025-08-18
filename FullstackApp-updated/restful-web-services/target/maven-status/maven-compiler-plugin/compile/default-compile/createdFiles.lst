@@ -1,0 +1,16 @@
+com\in28minutes\rest\webservices\restfulwebservices\todo\TodoService.class
+com\in28minutes\rest\webservices\restfulwebservices\todo\TodoResource.class
+com\in28minutes\rest\webservices\restfulwebservices\RestfulWebServicesApplication.class
+com\in28minutes\rest\webservices\restfulwebservices\todo\TodoRepository.class
+com\in28minutes\rest\webservices\restfulwebservices\todo\Todo.class
+com\in28minutes\rest\webservices\restfulwebservices\basic\BasicAuthenticationSecurityConfiguration.class
+com\in28minutes\rest\webservices\restfulwebservices\helloworld\HelloWorldBean.class
+com\in28minutes\rest\webservices\restfulwebservices\todo\TodoNotFoundException.class
+com\in28minutes\rest\webservices\restfulwebservices\user\CustomUserDetailsService.class
+com\in28minutes\rest\webservices\restfulwebservices\helloworld\HelloWorldController.class
+com\in28minutes\rest\webservices\restfulwebservices\user\UserRepository.class
+com\in28minutes\rest\webservices\restfulwebservices\user\UserService.class
+com\in28minutes\rest\webservices\restfulwebservices\user\UserController.class
+com\in28minutes\rest\webservices\restfulwebservices\RestfulWebServicesApplication$1.class
+com\in28minutes\rest\webservices\restfulwebservices\todo\Todo$TodoStatus.class
+com\in28minutes\rest\webservices\restfulwebservices\user\User.class
